@@ -138,6 +138,15 @@ d3.json( 'data/tweets.json', function ( data ) {
 		els.guts.selectAll( '.viz-el' ).remove();
 		els.key.selectAll( 'div' ).remove();
 
+		var anchorLine = els.guts.append( 'line' )
+			.classed( 'viz-el', true )
+			.attr( 'x1', scales.x( new Date( '2016-01-01' ) ) )
+			.attr( 'x2', scales.x( new Date( '2016-11-08' ) ) )
+			.attr( 'y1', scales.y( 1.4 ) )
+			.attr( 'y2', scales.y( 1.4 ) )
+			.style( 'stroke', '#000000' )
+			.style( 'stroke-width', 3 );
+
 		activeStates.forEach( function ( state, stateIndex ) {
 
 			var entry = els.key.append( 'div' ).classed( 'entry', true );
