@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  position: relative;
+  width: 100%; }
+  header h1 {
+    font-family: "Playfair Display WF";
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    width: 75%; }
+
+.line {
+  fill: transparent;
+  stroke-width: 2px; }
+
+.axis text {
+  font-family: "Merriweather Sans WF";
+  font-size: 10px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+.axis line {
+  opacity: 0.25; }
+.axis .domain {
+  fill: transparent;
+  stroke: none; }
+
+.state-li {
+  opacity: 0.25; }
+  .state-li.active {
+    opacity: 1; }
+
+.toggle {
+  float: left;
+  margin-left: 30px;
+  width: 320px;
+  height: 30px; }
+  .toggle button {
+    background-color: #cccccc;
+    border: 1px solid white;
+    box-sizing: border-box;
+    float: left;
+    font-family: "Montserrat WF";
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    line-height: 30px;
+    opacity: 0.25;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+    height: 30px; }
+    .toggle button.active {
+      opacity: 1; }
+
+.dropdown {
+  cursor: pointer;
+  float: left;
+  margin-left: 30px;
+  width: 320px;
+  height: 30px; }
+  .dropdown p {
+    background-color: #cccccc;
+    font-family: "Montserrat WF";
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 320px;
+    height: 30px; }
+  .dropdown ul {
+    display: none;
+    list-style: none; }
+  .dropdown.active ul {
+    display: block; }
+    .dropdown.active ul li {
+      background-color: #cccccc;
+      text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

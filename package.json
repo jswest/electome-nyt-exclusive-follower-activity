@@ -1,0 +1,7 @@
+{
+  "name": "electome-nyt-exclusive-follower-activity",
+  "version": "1.0.0",
+  "description": "A way of visualizing exlclusive follower political tweet activity during the presidential election.",
+  "author": "John West",
+  "license": "ISC"
+}
