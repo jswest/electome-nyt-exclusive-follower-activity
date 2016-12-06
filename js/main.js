@@ -5,6 +5,7 @@ var els = {};
 els.ratioToggle = document.getElementById( 'ratio-toggle' );
 els.percentToggle = document.getElementById( 'percent-toggle' );
 els.statesList = d3.select( '#states-dropdown ul' );
+els.key = d3.select( '#key' );
 
 var width = window.innerWidth;
 var height = window.innerHeight - 100;
@@ -135,8 +136,16 @@ d3.json( 'data/tweets.json', function ( data ) {
 		createAxes();
 		
 		els.guts.selectAll( '.viz-el' ).remove();
+		els.key.selectAll( 'div' ).remove();
 
 		activeStates.forEach( function ( state, stateIndex ) {
+
+			var entry = els.key.append( 'div' ).classed( 'entry', true );
+			entry.append( 'div' ).classed( 'colorblock', true )
+				.style( 'background-color', function () {
+					return state === 'all' ? '#cccccc' : scales.color( stateIndex );
+				} );
+			entry.append( 'p' ).classed( 'text', true ).text( state );
 
 			var ratioData = data.map( function ( d ) {
 				return { x: new Date( d.date ), y: d[state].ratio };
@@ -181,8 +190,24 @@ d3.json( 'data/tweets.json', function ( data ) {
 		createAxes();
 
 		els.guts.selectAll( '.viz-el' ).remove();
+		els.key.selectAll( 'div' ).remove();
 
 		activeStates.forEach( function ( state, stateIndex ) {
+
+			var entry = els.key.append( 'div' ).classed( 'entry', true );
+			entry.append( 'div' ).classed( 'colorblock', true )
+				.style( 'background-color', function () {
+					return state === 'all' ? '#cccccc' : scales.color( stateIndex );
+				} );
+			entry.append( 'p' ).classed( 'text' ).text( 'Trump: ' + state );
+
+			var entry = els.key.append( 'div' ).classed( 'entry', true );
+			entry.append( 'div' ).classed( 'colorblock', true )
+				.style( 'background-color', function () {
+					return state === 'all' ? '#cccccc' : scales.color( stateIndex );
+				} )
+				.style( 'opacity', 0.25 );
+			entry.append( 'p' ).classed( 'text' ).text( 'Clinton: ' + state );
 
 			var clintonData = data.map( function ( d ) {
 				return { x: new Date( d.date ), y: d[state].clinton };

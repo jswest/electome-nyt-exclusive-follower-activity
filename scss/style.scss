@@ -102,3 +102,32 @@ header {
 		}
 	}
 }
+
+#key {
+	float: left;
+	margin-left: 30px;
+	width: 320px;
+	height: 30px;
+	.entry {
+		float: left;
+		width: 160px;
+		height: 10px;
+	}
+	.colorblock {
+		float: left;
+		width: 10px;
+		height: 10px;
+	}
+	.text {
+		float: left;
+		font-family: "Montserrat WF";
+		font-size: 10px;
+		font-weight: 100;
+		letter-spacing: 3px;
+		line-height: 10px;
+		margin-left: 10px;
+		text-transform: uppercase;
+		width: 140px;
+		height: 10px;
+	}
+}
