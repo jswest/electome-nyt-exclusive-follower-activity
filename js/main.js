@@ -199,7 +199,7 @@ d3.json( 'data/tweets.json', function ( data ) {
 				.style( 'background-color', function () {
 					return state === 'all' ? '#cccccc' : scales.color( stateIndex );
 				} );
-			entry.append( 'p' ).classed( 'text' ).text( 'Trump: ' + state );
+			entry.append( 'p' ).classed( 'text', true ).text( 'Trump: ' + state );
 
 			var entry = els.key.append( 'div' ).classed( 'entry', true );
 			entry.append( 'div' ).classed( 'colorblock', true )
@@ -207,7 +207,7 @@ d3.json( 'data/tweets.json', function ( data ) {
 					return state === 'all' ? '#cccccc' : scales.color( stateIndex );
 				} )
 				.style( 'opacity', 0.25 );
-			entry.append( 'p' ).classed( 'text' ).text( 'Clinton: ' + state );
+			entry.append( 'p' ).classed( 'text', true ).text( 'Clinton: ' + state );
 
 			var clintonData = data.map( function ( d ) {
 				return { x: new Date( d.date ), y: d[state].clinton };
