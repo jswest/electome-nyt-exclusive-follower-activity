@@ -1,0 +1,470 @@
+[
+  {
+    "state": "all",
+    "clinton_vote": 0.48174867157393003,
+    "trump_vote": 0.4620815613284414,
+    "difference_vote": -0.01966711024548857,
+    "clinton_tweet": 0.0004952053609116415,
+    "trump_tweet": 0.0009342115069598734,
+    "ratio_tweet": 1.8865133148802138
+  },
+  {
+    "state": "AZ",
+    "clinton_vote": 0.4512602184469321,
+    "trump_vote": 0.4867161647232105,
+    "difference_vote": 0.03545594627627843,
+    "clinton_tweet": 0.06909678001624532,
+    "trump_tweet": 0.21015633617793644,
+    "ratio_tweet": 3.04147799837455
+  },
+  {
+    "state": "CO",
+    "clinton_vote": 0.48156980382847403,
+    "trump_vote": 0.4325139737143104,
+    "difference_vote": -0.049055830114163625,
+    "clinton_tweet": 0.08615624605928701,
+    "trump_tweet": 0.09095866162878133,
+    "ratio_tweet": 1.0557407708570499
+  },
+  {
+    "state": "FL",
+    "clinton_vote": 0.4782331580580505,
+    "trump_vote": 0.49021941416590736,
+    "difference_vote": 0.011986256107856879,
+    "clinton_tweet": 0.08529171934971755,
+    "trump_tweet": 0.18632660586883898,
+    "ratio_tweet": 2.184580253387236
+  },
+  {
+    "state": "IA",
+    "clinton_vote": 0.4174048917294741,
+    "trump_vote": 0.5114732722404601,
+    "difference_vote": 0.09406838051098605,
+    "clinton_tweet": 0.09421647869592528,
+    "trump_tweet": 0.08658730800007299,
+    "ratio_tweet": 0.9190250919855038
+  },
+  {
+    "state": "ME",
+    "clinton_vote": 0.4789173942968191,
+    "trump_vote": 0.45193322446996587,
+    "difference_vote": -0.026984169826853265,
+    "clinton_tweet": 0.1228146532285975,
+    "trump_tweet": 0.1278644167339619,
+    "ratio_tweet": 1.0411169463302166
+  },
+  {
+    "state": "MI",
+    "clinton_vote": 0.4727453095086684,
+    "trump_vote": 0.47497564219996147,
+    "difference_vote": 0.002230332691293118,
+    "clinton_tweet": 0.08236205242793061,
+    "trump_tweet": 0.15143289246613975,
+    "ratio_tweet": 1.8386245607301772
+  },
+  {
+    "state": "MN",
+    "clinton_vote": 0.4644491857377701,
+    "trump_vote": 0.4492478809350543,
+    "difference_vote": -0.015201304802715827,
+    "clinton_tweet": 0.11758033683395441,
+    "trump_tweet": 0.09233896336446788,
+    "ratio_tweet": 0.7853265762868828
+  },
+  {
+    "state": "NV",
+    "clinton_vote": 0.4791782367811904,
+    "trump_vote": 0.4550069531760242,
+    "difference_vote": -0.02417128360516623,
+    "clinton_tweet": 0.0931741091465613,
+    "trump_tweet": 0.16841563104724486,
+    "ratio_tweet": 1.8075367995451388
+  },
+  {
+    "state": "NH",
+    "clinton_vote": 0.4683494634204027,
+    "trump_vote": 0.4646728248570868,
+    "difference_vote": -0.0036766385633158548,
+    "clinton_tweet": 0.122168618613853,
+    "trump_tweet": 0.16713217168671513,
+    "ratio_tweet": 1.3680450313920762
+  },
+  {
+    "state": "NC",
+    "clinton_vote": 0.4617290433605279,
+    "trump_vote": 0.4982819652217375,
+    "difference_vote": 0.03655292186120961,
+    "clinton_tweet": 0.07866873170565401,
+    "trump_tweet": 0.16105031259690017,
+    "ratio_tweet": 2.047195996491771
+  },
+  {
+    "state": "OH",
+    "clinton_vote": 0.4355807627672002,
+    "trump_vote": 0.5168765067578619,
+    "difference_vote": 0.08129574399066167,
+    "clinton_tweet": 0.07626127953190039,
+    "trump_tweet": 0.12137555154231357,
+    "ratio_tweet": 1.5915750730558056
+  },
+  {
+    "state": "PA",
+    "clinton_vote": 0.47853533495349315,
+    "trump_vote": 0.4857804320404432,
+    "difference_vote": 0.007245097086949995,
+    "clinton_tweet": 0.08355462387929492,
+    "trump_tweet": 0.1619131302544083,
+    "ratio_tweet": 1.937811730064299
+  },
+  {
+    "state": "WI",
+    "clinton_vote": 0.4644294566655676,
+    "trump_vote": 0.4718831262458773,
+    "difference_vote": 0.007453669580309702,
+    "clinton_tweet": 0.07612840034322305,
+    "trump_tweet": 0.1327151862557994,
+    "ratio_tweet": 1.7433071712719064
+  },
+  {
+    "state": "AL",
+    "clinton_vote": 0.3435794575797364,
+    "trump_vote": 0.6208309236440906,
+    "difference_vote": 0.27725146606435425,
+    "clinton_tweet": 0.05589455293591841,
+    "trump_tweet": 0.18728599764343468,
+    "ratio_tweet": 3.350702131174624
+  },
+  {
+    "state": "AK",
+    "clinton_vote": 0.3653940283896231,
+    "trump_vote": 0.5129679832323004,
+    "difference_vote": 0.1475739548426773,
+    "clinton_tweet": 0.08174931860819086,
+    "trump_tweet": 0.16723301830023715,
+    "ratio_tweet": 2.045680883308075
+  },
+  {
+    "state": "AR",
+    "clinton_vote": 0.33653124129360934,
+    "trump_vote": 0.6057410216382829,
+    "difference_vote": 0.2692097803446736,
+    "clinton_tweet": 0.14097819483965854,
+    "trump_tweet": 0.14888736131981967,
+    "ratio_tweet": 1.0561020552799432
+  },
+  {
+    "state": "CA",
+    "clinton_vote": 0.6226629477192327,
+    "trump_vote": 0.318972920584044,
+    "difference_vote": -0.3036900271351888,
+    "clinton_tweet": 0.09990449004120878,
+    "trump_tweet": 0.11580528846153847,
+    "ratio_tweet": 1.1591599978516571
+  },
+  {
+    "state": "CT",
+    "clinton_vote": 0.5456630109670987,
+    "trump_vote": 0.40926914378814777,
+    "difference_vote": -0.13639386717895094,
+    "clinton_tweet": 0.08745372151039238,
+    "trump_tweet": 0.10460496487884328,
+    "ratio_tweet": 1.1961179361179362
+  },
+  {
+    "state": "DE",
+    "clinton_vote": 0.5335333680563419,
+    "trump_vote": 0.41922824339319276,
+    "difference_vote": -0.11430512466314907,
+    "clinton_tweet": 0.08952825928370445,
+    "trump_tweet": 0.07439121825824156,
+    "ratio_tweet": 0.8309244349597439
+  },
+  {
+    "state": "DC",
+    "clinton_vote": 0.9086382152999987,
+    "trump_vote": 0.040874744593083774,
+    "difference_vote": -0.867763470706915,
+    "clinton_tweet": 0.09813582660184472,
+    "trump_tweet": 0.05190868829966097,
+    "ratio_tweet": 0.5289473793323631
+  },
+  {
+    "state": "GA",
+    "clinton_vote": 0.4588934097649457,
+    "trump_vote": 0.5104871916611706,
+    "difference_vote": 0.051593781896225,
+    "clinton_tweet": 0.0796222470990437,
+    "trump_tweet": 0.16381361157550997,
+    "ratio_tweet": 2.057384933782878
+  },
+  {
+    "state": "HI",
+    "clinton_vote": 0.6222149173421738,
+    "trump_vote": 0.3003867700851174,
+    "difference_vote": -0.3218281472570564,
+    "clinton_tweet": 0.06965584851142873,
+    "trump_tweet": 0.12530313193333678,
+    "ratio_tweet": 1.7988888888888888
+  },
+  {
+    "state": "ID",
+    "clinton_vote": 0.27492013820979205,
+    "trump_vote": 0.5926143236919689,
+    "difference_vote": 0.31769418548217687,
+    "clinton_tweet": 0.07613436840884746,
+    "trump_tweet": 0.10724184767604934,
+    "ratio_tweet": 1.4085865544999638
+  },
+  {
+    "state": "IL",
+    "clinton_vote": 0.558253666987933,
+    "trump_vote": 0.3876175307382527,
+    "difference_vote": -0.1706361362496803,
+    "clinton_tweet": 0.08977426671973117,
+    "trump_tweet": 0.10276216448298374,
+    "ratio_tweet": 1.1446728359675702
+  },
+  {
+    "state": "IN",
+    "clinton_vote": 0.3791598995986647,
+    "trump_vote": 0.5682279178910027,
+    "difference_vote": 0.18906801829233807,
+    "clinton_tweet": 0.05686139335990968,
+    "trump_tweet": 0.1423812806602124,
+    "ratio_tweet": 2.504006184987349
+  },
+  {
+    "state": "KS",
+    "clinton_vote": 0.36052370732234496,
+    "trump_vote": 0.5665458180583958,
+    "difference_vote": 0.20602211073605076,
+    "clinton_tweet": 0.06541430808884285,
+    "trump_tweet": 0.11006696511154686,
+    "ratio_tweet": 1.6826129990102274
+  },
+  {
+    "state": "KY",
+    "clinton_vote": 0.3268218833364776,
+    "trump_vote": 0.6251963855190009,
+    "difference_vote": 0.29837450218252326,
+    "clinton_tweet": 0.07844102852720813,
+    "trump_tweet": 0.21528017165570368,
+    "ratio_tweet": 2.7444843049327354
+  },
+  {
+    "state": "LA",
+    "clinton_vote": 0.3844956609851397,
+    "trump_vote": 0.580886846535688,
+    "difference_vote": 0.19639118555054824,
+    "clinton_tweet": 0.0864426375898858,
+    "trump_tweet": 0.1349814353527283,
+    "ratio_tweet": 1.5615145386137752
+  },
+  {
+    "state": "MD",
+    "clinton_vote": 0.6032480479858608,
+    "trump_vote": 0.33908817085543486,
+    "difference_vote": -0.264159877130426,
+    "clinton_tweet": 0.09942624724449914,
+    "trump_tweet": 0.1050809407246122,
+    "ratio_tweet": 1.05687324662076
+  },
+  {
+    "state": "MA",
+    "clinton_vote": 0.6000506459158761,
+    "trump_vote": 0.3280835814000769,
+    "difference_vote": -0.27196706451579916,
+    "clinton_tweet": 0.10550294934304048,
+    "trump_tweet": 0.12247910882012993,
+    "ratio_tweet": 1.1609069659454907
+  },
+  {
+    "state": "MS",
+    "clinton_vote": 0.4005205451139099,
+    "trump_vote": 0.580703660983952,
+    "difference_vote": 0.18018311587004207,
+    "clinton_tweet": 0.04158948077027021,
+    "trump_tweet": 0.23941468112602143,
+    "ratio_tweet": 5.756616257088846
+  },
+  {
+    "state": "MO",
+    "clinton_vote": 0.38083992536052325,
+    "trump_vote": 0.5667274431710038,
+    "difference_vote": 0.1858875178104805,
+    "clinton_tweet": 0.08496094485579349,
+    "trump_tweet": 0.12765043951160357,
+    "ratio_tweet": 1.5024602154350815
+  },
+  {
+    "state": "MT",
+    "clinton_vote": 0.35935218775150346,
+    "trump_vote": 0.5646619186857719,
+    "difference_vote": 0.20530973093426838,
+    "clinton_tweet": 0.040962104699629076,
+    "trump_tweet": 0.26207793201024815,
+    "ratio_tweet": 6.398058252427184
+  },
+  {
+    "state": "NE",
+    "clinton_vote": 0.33698756377135536,
+    "trump_vote": 0.5874735112712576,
+    "difference_vote": 0.2504859474999023,
+    "clinton_tweet": 0.06091406680859391,
+    "trump_tweet": 0.12357751540345488,
+    "ratio_tweet": 2.028718847352025
+  },
+  {
+    "state": "NJ",
+    "clinton_vote": 0.554530844496942,
+    "trump_vote": 0.4135038665002945,
+    "difference_vote": -0.14102697799664743,
+    "clinton_tweet": 0.09302909859631676,
+    "trump_tweet": 0.17601807243480647,
+    "ratio_tweet": 1.892075437585455
+  },
+  {
+    "state": "NM",
+    "clinton_vote": 0.48255707625282157,
+    "trump_vote": 0.4004243922847788,
+    "difference_vote": -0.08213268396804281,
+    "clinton_tweet": 0.0649299238595782,
+    "trump_tweet": 0.0729650966915976,
+    "ratio_tweet": 1.123751459333247
+  },
+  {
+    "state": "NY",
+    "clinton_vote": 0.583813638577194,
+    "trump_vote": 0.371553314813004,
+    "difference_vote": -0.21226032376419005,
+    "clinton_tweet": 0.11996685296929518,
+    "trump_tweet": 0.12631510456139522,
+    "ratio_tweet": 1.0529167135335695
+  },
+  {
+    "state": "ND",
+    "clinton_vote": 0.27226739458706006,
+    "trump_vote": 0.629556278313393,
+    "difference_vote": 0.3572888837263329,
+    "clinton_tweet": 0.06119561372479661,
+    "trump_tweet": 0.23096726015013952,
+    "ratio_tweet": 3.774245343609505
+  },
+  {
+    "state": "OK",
+    "clinton_vote": 0.2893168028454389,
+    "trump_vote": 0.6532286481962736,
+    "difference_vote": 0.3639118453508347,
+    "clinton_tweet": 0.07199290243137615,
+    "trump_tweet": 0.14549760737494488,
+    "ratio_tweet": 2.020999327171642
+  },
+  {
+    "state": "OR",
+    "clinton_vote": 0.5007185200286208,
+    "trump_vote": 0.39094035184496756,
+    "difference_vote": -0.10977816818365332,
+    "clinton_tweet": 0.09228156627876123,
+    "trump_tweet": 0.0881998407945112,
+    "ratio_tweet": 0.955768788406559
+  },
+  {
+    "state": "RI",
+    "clinton_vote": 0.5440660657037472,
+    "trump_vote": 0.3889805749939674,
+    "difference_vote": -0.15508549070977973,
+    "clinton_tweet": 0.06414600462487154,
+    "trump_tweet": 0.13917169835560123,
+    "ratio_tweet": 2.1696082112905244
+  },
+  {
+    "state": "SC",
+    "clinton_vote": 0.4067341978966509,
+    "trump_vote": 0.5493933268569543,
+    "difference_vote": 0.14265912896030342,
+    "clinton_tweet": 0.05966367848357254,
+    "trump_tweet": 0.17906083518208296,
+    "ratio_tweet": 3.0011698864893916
+  },
+  {
+    "state": "SD",
+    "clinton_vote": 0.31737049618021496,
+    "trump_vote": 0.6153299445746081,
+    "difference_vote": 0.29795944839439314,
+    "clinton_tweet": 0.03639552729664547,
+    "trump_tweet": 0.12236351677263758,
+    "ratio_tweet": 3.3620481927710846
+  },
+  {
+    "state": "TN",
+    "clinton_vote": 0.3489599120603469,
+    "trump_vote": 0.6107124661604569,
+    "difference_vote": 0.26175255410011006,
+    "clinton_tweet": 0.057326246273435695,
+    "trump_tweet": 0.1930226659280837,
+    "ratio_tweet": 3.367090616877319
+  },
+  {
+    "state": "TX",
+    "clinton_vote": 0.4323525798101196,
+    "trump_vote": 0.5223468557933538,
+    "difference_vote": 0.08999427598323423,
+    "clinton_tweet": 0.058371537922106836,
+    "trump_tweet": 0.14384385158034285,
+    "ratio_tweet": 2.4642806528807495
+  },
+  {
+    "state": "UT",
+    "clinton_vote": 0.274587027036582,
+    "trump_vote": 0.4553803593682331,
+    "difference_vote": 0.1807933323316511,
+    "clinton_tweet": 0.04026581326369868,
+    "trump_tweet": 0.0664852475767424,
+    "ratio_tweet": 1.6511586923958057
+  },
+  {
+    "state": "VT",
+    "clinton_vote": 0.5667778599472493,
+    "trump_vote": 0.3026943475514732,
+    "difference_vote": -0.26408351239577615,
+    "clinton_tweet": 0.01700477034744194,
+    "trump_tweet": 0.029111853382832627,
+    "ratio_tweet": 1.7119815668202765
+  },
+  {
+    "state": "VA",
+    "clinton_vote": 0.49751352833417695,
+    "trump_vote": 0.44427647013924043,
+    "difference_vote": -0.053237058194936564,
+    "clinton_tweet": 0.10518104008635232,
+    "trump_tweet": 0.12413343451302655,
+    "ratio_tweet": 1.1801883154142092
+  },
+  {
+    "state": "WA",
+    "clinton_vote": 0.517796296934554,
+    "trump_vote": 0.3630054159025732,
+    "difference_vote": -0.1547908810319808,
+    "clinton_tweet": 0.08831221177296723,
+    "trump_tweet": 0.0984793736115113,
+    "ratio_tweet": 1.1151274737029775
+  },
+  {
+    "state": "WV",
+    "clinton_vote": 0.26476928017771517,
+    "trump_vote": 0.6863057481161936,
+    "difference_vote": 0.42153646793847843,
+    "clinton_tweet": 0.04601767972746492,
+    "trump_tweet": 0.17398210119288868,
+    "ratio_tweet": 3.7807664841704356
+  },
+  {
+    "state": "WY",
+    "clinton_vote": 0.2187735734749794,
+    "trump_vote": 0.6817263307654124,
+    "difference_vote": 0.462952757290433,
+    "clinton_tweet": 0.04055328513046212,
+    "trump_tweet": 0.19103662370323798,
+    "ratio_tweet": 4.710755813953488
+  }
+]
