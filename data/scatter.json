@@ -6,7 +6,12 @@
     "difference_vote": -0.01966711024548857,
     "clinton_tweet": 0.0004952053609116415,
     "trump_tweet": 0.0009342115069598734,
-    "ratio_tweet": 1.8865133148802138
+    "ratio_tweet": 1.8865133148802138,
+    "poll_vote_538": false,
+    "poll_vote_rcp": false,
+    "poll_vote_gcs": false,
+    "is_hispanic_15_percent": false,
+    "is_midwestern": false
   },
   {
     "state": "AZ",
@@ -15,7 +20,12 @@
     "difference_vote": 0.03545594627627843,
     "clinton_tweet": 0.06909678001624532,
     "trump_tweet": 0.21015633617793644,
-    "ratio_tweet": 3.04147799837455
+    "ratio_tweet": 3.04147799837455,
+    "poll_vote_538": 1.91,
+    "poll_vote_rcp": 0.11,
+    "poll_vote_gcs": 10.869823,
+    "is_hispanic_15_percent": 1,
+    "is_midwestern": 0
   },
   {
     "state": "CO",
@@ -24,7 +34,12 @@
     "difference_vote": -0.049055830114163625,
     "clinton_tweet": 0.08615624605928701,
     "trump_tweet": 0.09095866162878133,
-    "ratio_tweet": 1.0557407708570499
+    "ratio_tweet": 1.0557407708570499,
+    "poll_vote_538": 1.09,
+    "poll_vote_rcp": -0.01,
+    "poll_vote_gcs": 18.739679,
+    "is_hispanic_15_percent": 1,
+    "is_midwestern": 0
   },
   {
     "state": "FL",
@@ -33,7 +48,12 @@
     "difference_vote": 0.011986256107856879,
     "clinton_tweet": 0.08529171934971755,
     "trump_tweet": 0.18632660586883898,
-    "ratio_tweet": 2.184580253387236
+    "ratio_tweet": 2.184580253387236,
+    "poll_vote_538": 1.97,
+    "poll_vote_rcp": 1.07,
+    "poll_vote_gcs": -6.528973,
+    "is_hispanic_15_percent": 1,
+    "is_midwestern": 0
   },
   {
     "state": "IA",
@@ -42,7 +62,12 @@
     "difference_vote": 0.09406838051098605,
     "clinton_tweet": 0.09421647869592528,
     "trump_tweet": 0.08658730800007299,
-    "ratio_tweet": 0.9190250919855038
+    "ratio_tweet": 0.9190250919855038,
+    "poll_vote_538": 6.7,
+    "poll_vote_rcp": 6.6,
+    "poll_vote_gcs": 16.325687,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 1
   },
   {
     "state": "ME",
@@ -51,7 +76,12 @@
     "difference_vote": -0.026984169826853265,
     "clinton_tweet": 0.1228146532285975,
     "trump_tweet": 0.1278644167339619,
-    "ratio_tweet": 1.0411169463302166
+    "ratio_tweet": 1.0411169463302166,
+    "poll_vote_538": 4.69,
+    "poll_vote_rcp": 1.79,
+    "poll_vote_gcs": 29.679883,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "MI",
@@ -60,7 +90,12 @@
     "difference_vote": 0.002230332691293118,
     "clinton_tweet": 0.08236205242793061,
     "trump_tweet": 0.15143289246613975,
-    "ratio_tweet": 1.8386245607301772
+    "ratio_tweet": 1.8386245607301772,
+    "poll_vote_538": 4.45,
+    "poll_vote_rcp": 3.65,
+    "poll_vote_gcs": 2.826114,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 1
   },
   {
     "state": "MN",
@@ -69,7 +104,12 @@
     "difference_vote": -0.015201304802715827,
     "clinton_tweet": 0.11758033683395441,
     "trump_tweet": 0.09233896336446788,
-    "ratio_tweet": 0.7853265762868828
+    "ratio_tweet": 0.7853265762868828,
+    "poll_vote_538": 4.3,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": 6.218162,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 1
   },
   {
     "state": "NV",
@@ -78,7 +118,12 @@
     "difference_vote": -0.02417128360516623,
     "clinton_tweet": 0.0931741091465613,
     "trump_tweet": 0.16841563104724486,
-    "ratio_tweet": 1.8075367995451388
+    "ratio_tweet": 1.8075367995451388,
+    "poll_vote_538": -1.16,
+    "poll_vote_rcp": -3.16,
+    "poll_vote_gcs": 0.935003,
+    "is_hispanic_15_percent": 1,
+    "is_midwestern": 0
   },
   {
     "state": "NH",
@@ -87,7 +132,12 @@
     "difference_vote": -0.0036766385633158548,
     "clinton_tweet": 0.122168618613853,
     "trump_tweet": 0.16713217168671513,
-    "ratio_tweet": 1.3680450313920762
+    "ratio_tweet": 1.3680450313920762,
+    "poll_vote_538": 3.22,
+    "poll_vote_rcp": 0.22,
+    "poll_vote_gcs": 9.107244,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "NC",
@@ -96,7 +146,12 @@
     "difference_vote": 0.03655292186120961,
     "clinton_tweet": 0.07866873170565401,
     "trump_tweet": 0.16105031259690017,
-    "ratio_tweet": 2.047195996491771
+    "ratio_tweet": 2.047195996491771,
+    "poll_vote_538": 4.54,
+    "poll_vote_rcp": 2.84,
+    "poll_vote_gcs": -3.990196,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "OH",
@@ -105,7 +160,12 @@
     "difference_vote": 0.08129574399066167,
     "clinton_tweet": 0.07626127953190039,
     "trump_tweet": 0.12137555154231357,
-    "ratio_tweet": 1.5915750730558056
+    "ratio_tweet": 1.5915750730558056,
+    "poll_vote_538": 6.64,
+    "poll_vote_rcp": 5.04,
+    "poll_vote_gcs": 4.856097,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 1
   },
   {
     "state": "PA",
@@ -114,7 +174,12 @@
     "difference_vote": 0.007245097086949995,
     "clinton_tweet": 0.08355462387929492,
     "trump_tweet": 0.1619131302544083,
-    "ratio_tweet": 1.937811730064299
+    "ratio_tweet": 1.937811730064299,
+    "poll_vote_538": 4.84,
+    "poll_vote_rcp": 3.04,
+    "poll_vote_gcs": -0.238455,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "WI",
@@ -123,7 +188,12 @@
     "difference_vote": 0.007453669580309702,
     "clinton_tweet": 0.07612840034322305,
     "trump_tweet": 0.1327151862557994,
-    "ratio_tweet": 1.7433071712719064
+    "ratio_tweet": 1.7433071712719064,
+    "poll_vote_538": 6.08,
+    "poll_vote_rcp": 7.28,
+    "poll_vote_gcs": 17.824212,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 1
   },
   {
     "state": "AL",
@@ -132,7 +202,12 @@
     "difference_vote": 0.27725146606435425,
     "clinton_tweet": 0.05589455293591841,
     "trump_tweet": 0.18728599764343468,
-    "ratio_tweet": 3.350702131174624
+    "ratio_tweet": 3.350702131174624,
+    "poll_vote_538": 6.04,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": -20.126324,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "AK",
@@ -141,7 +216,12 @@
     "difference_vote": 0.1475739548426773,
     "clinton_tweet": 0.08174931860819086,
     "trump_tweet": 0.16723301830023715,
-    "ratio_tweet": 2.045680883308075
+    "ratio_tweet": 2.045680883308075,
+    "poll_vote_538": 7.77,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": -6.732228,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "AR",
@@ -150,7 +230,12 @@
     "difference_vote": 0.2692097803446736,
     "clinton_tweet": 0.14097819483965854,
     "trump_tweet": 0.14888736131981967,
-    "ratio_tweet": 1.0561020552799432
+    "ratio_tweet": 1.0561020552799432,
+    "poll_vote_538": 5.98,
+    "poll_vote_rcp": 1.18,
+    "poll_vote_gcs": 12.092601,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "CA",
@@ -159,7 +244,12 @@
     "difference_vote": -0.3036900271351888,
     "clinton_tweet": 0.09990449004120878,
     "trump_tweet": 0.11580528846153847,
-    "ratio_tweet": 1.1591599978516571
+    "ratio_tweet": 1.1591599978516571,
+    "poll_vote_538": -5.93,
+    "poll_vote_rcp": -6.53,
+    "poll_vote_gcs": -1.022318,
+    "is_hispanic_15_percent": 1,
+    "is_midwestern": 0
   },
   {
     "state": "CT",
@@ -168,7 +258,12 @@
     "difference_vote": -0.13639386717895094,
     "clinton_tweet": 0.08745372151039238,
     "trump_tweet": 0.10460496487884328,
-    "ratio_tweet": 1.1961179361179362
+    "ratio_tweet": 1.1961179361179362,
+    "poll_vote_538": -0.62,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": -0.448792,
+    "is_hispanic_15_percent": 1,
+    "is_midwestern": 0
   },
   {
     "state": "DE",
@@ -177,7 +272,12 @@
     "difference_vote": -0.11430512466314907,
     "clinton_tweet": 0.08952825928370445,
     "trump_tweet": 0.07439121825824156,
-    "ratio_tweet": 0.8309244349597439
+    "ratio_tweet": 0.8309244349597439,
+    "poll_vote_538": 1.06,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": -0.706754,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "DC",
@@ -186,7 +286,12 @@
     "difference_vote": -0.867763470706915,
     "clinton_tweet": 0.09813582660184472,
     "trump_tweet": 0.05190868829966097,
-    "ratio_tweet": 0.5289473793323631
+    "ratio_tweet": 0.5289473793323631,
+    "poll_vote_538": -18.23,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": -33.972417,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "GA",
@@ -195,7 +300,12 @@
     "difference_vote": 0.051593781896225,
     "clinton_tweet": 0.0796222470990437,
     "trump_tweet": 0.16381361157550997,
-    "ratio_tweet": 2.057384933782878
+    "ratio_tweet": 2.057384933782878,
+    "poll_vote_538": 1.74,
+    "poll_vote_rcp": 0.94,
+    "poll_vote_gcs": -2.135752,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "HI",
@@ -204,7 +314,12 @@
     "difference_vote": -0.3218281472570564,
     "clinton_tweet": 0.06965584851142873,
     "trump_tweet": 0.12530313193333678,
-    "ratio_tweet": 1.7988888888888888
+    "ratio_tweet": 1.7988888888888888,
+    "poll_vote_538": -8.48,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": -6.226475,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "ID",
@@ -213,7 +328,12 @@
     "difference_vote": 0.31769418548217687,
     "clinton_tweet": 0.07613436840884746,
     "trump_tweet": 0.10724184767604934,
-    "ratio_tweet": 1.4085865544999638
+    "ratio_tweet": 1.4085865544999638,
+    "poll_vote_538": 12.01,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": 12.450686,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "IL",
@@ -222,7 +342,12 @@
     "difference_vote": -0.1706361362496803,
     "clinton_tweet": 0.08977426671973117,
     "trump_tweet": 0.10276216448298374,
-    "ratio_tweet": 1.1446728359675702
+    "ratio_tweet": 1.1446728359675702,
+    "poll_vote_538": -3.09,
+    "poll_vote_rcp": -4.49,
+    "poll_vote_gcs": -1.315519,
+    "is_hispanic_15_percent": 1,
+    "is_midwestern": 1
   },
   {
     "state": "IN",
@@ -231,7 +356,12 @@
     "difference_vote": 0.18906801829233807,
     "clinton_tweet": 0.05686139335990968,
     "trump_tweet": 0.1423812806602124,
-    "ratio_tweet": 2.504006184987349
+    "ratio_tweet": 2.504006184987349,
+    "poll_vote_538": 7.66,
+    "poll_vote_rcp": 8.56,
+    "poll_vote_gcs": 19.165282,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 1
   },
   {
     "state": "KS",
@@ -240,7 +370,12 @@
     "difference_vote": 0.20602211073605076,
     "clinton_tweet": 0.06541430808884285,
     "trump_tweet": 0.11006696511154686,
-    "ratio_tweet": 1.6826129990102274
+    "ratio_tweet": 1.6826129990102274,
+    "poll_vote_538": 8.53,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": 34.527474,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "KY",
@@ -249,7 +384,12 @@
     "difference_vote": 0.29837450218252326,
     "clinton_tweet": 0.07844102852720813,
     "trump_tweet": 0.21528017165570368,
-    "ratio_tweet": 2.7444843049327354
+    "ratio_tweet": 2.7444843049327354,
+    "poll_vote_538": 11.65,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": 13.592798,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "LA",
@@ -258,7 +398,12 @@
     "difference_vote": 0.19639118555054824,
     "clinton_tweet": 0.0864426375898858,
     "trump_tweet": 0.1349814353527283,
-    "ratio_tweet": 1.5615145386137752
+    "ratio_tweet": 1.5615145386137752,
+    "poll_vote_538": 3.55,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": -15.240527,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "MD",
@@ -267,7 +412,12 @@
     "difference_vote": -0.264159877130426,
     "clinton_tweet": 0.09942624724449914,
     "trump_tweet": 0.1050809407246122,
-    "ratio_tweet": 1.05687324662076
+    "ratio_tweet": 1.05687324662076,
+    "poll_vote_538": 0.48,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": -1.325175,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "MA",
@@ -276,7 +426,12 @@
     "difference_vote": -0.27196706451579916,
     "clinton_tweet": 0.10550294934304048,
     "trump_tweet": 0.12247910882012993,
-    "ratio_tweet": 1.1609069659454907
+    "ratio_tweet": 1.1609069659454907,
+    "poll_vote_538": -3.88,
+    "poll_vote_rcp": 2.12,
+    "poll_vote_gcs": 2.823796,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "MS",
@@ -285,7 +440,12 @@
     "difference_vote": 0.18018311587004207,
     "clinton_tweet": 0.04158948077027021,
     "trump_tweet": 0.23941468112602143,
-    "ratio_tweet": 5.756616257088846
+    "ratio_tweet": 5.756616257088846,
+    "poll_vote_538": 5.51,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": -17.204864,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "MO",
@@ -294,7 +454,12 @@
     "difference_vote": 0.1858875178104805,
     "clinton_tweet": 0.08496094485579349,
     "trump_tweet": 0.12765043951160357,
-    "ratio_tweet": 1.5024602154350815
+    "ratio_tweet": 1.5024602154350815,
+    "poll_vote_538": 9.03,
+    "poll_vote_rcp": 8.13,
+    "poll_vote_gcs": 19.875662,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 1
   },
   {
     "state": "MT",
@@ -303,7 +468,12 @@
     "difference_vote": 0.20530973093426838,
     "clinton_tweet": 0.040962104699629076,
     "trump_tweet": 0.26207793201024815,
-    "ratio_tweet": 6.398058252427184
+    "ratio_tweet": 6.398058252427184,
+    "poll_vote_538": 5.53,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": 12.021767,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "NE",
@@ -312,7 +482,12 @@
     "difference_vote": 0.2504859474999023,
     "clinton_tweet": 0.06091406680859391,
     "trump_tweet": 0.12357751540345488,
-    "ratio_tweet": 2.028718847352025
+    "ratio_tweet": 2.028718847352025,
+    "poll_vote_538": 8.51,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": 8.591738,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "NJ",
@@ -321,7 +496,12 @@
     "difference_vote": -0.14102697799664743,
     "clinton_tweet": 0.09302909859631676,
     "trump_tweet": 0.17601807243480647,
-    "ratio_tweet": 1.892075437585455
+    "ratio_tweet": 1.892075437585455,
+    "poll_vote_538": -1.74,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": -4.715047,
+    "is_hispanic_15_percent": 1,
+    "is_midwestern": 0
   },
   {
     "state": "NM",
@@ -330,7 +510,12 @@
     "difference_vote": -0.08213268396804281,
     "clinton_tweet": 0.0649299238595782,
     "trump_tweet": 0.0729650966915976,
-    "ratio_tweet": 1.123751459333247
+    "ratio_tweet": 1.123751459333247,
+    "poll_vote_538": -2.42,
+    "poll_vote_rcp": -3.22,
+    "poll_vote_gcs": 5.410533,
+    "is_hispanic_15_percent": 1,
+    "is_midwestern": 0
   },
   {
     "state": "NY",
@@ -339,7 +524,12 @@
     "difference_vote": -0.21226032376419005,
     "clinton_tweet": 0.11996685296929518,
     "trump_tweet": 0.12631510456139522,
-    "ratio_tweet": 1.0529167135335695
+    "ratio_tweet": 1.0529167135335695,
+    "poll_vote_538": -2.33,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": -8.714803,
+    "is_hispanic_15_percent": 1,
+    "is_midwestern": 0
   },
   {
     "state": "ND",
@@ -348,7 +538,12 @@
     "difference_vote": 0.3572888837263329,
     "clinton_tweet": 0.06119561372479661,
     "trump_tweet": 0.23096726015013952,
-    "ratio_tweet": 3.774245343609505
+    "ratio_tweet": 3.774245343609505,
+    "poll_vote_538": 13.28,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": 3.537466,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "OK",
@@ -357,7 +552,12 @@
     "difference_vote": 0.3639118453508347,
     "clinton_tweet": 0.07199290243137615,
     "trump_tweet": 0.14549760737494488,
-    "ratio_tweet": 2.020999327171642
+    "ratio_tweet": 2.020999327171642,
+    "poll_vote_538": 10.4,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": 10.893537,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "OR",
@@ -366,7 +566,12 @@
     "difference_vote": -0.10977816818365332,
     "clinton_tweet": 0.09228156627876123,
     "trump_tweet": 0.0881998407945112,
-    "ratio_tweet": 0.955768788406559
+    "ratio_tweet": 0.955768788406559,
+    "poll_vote_538": -1.43,
+    "poll_vote_rcp": -2.63,
+    "poll_vote_gcs": 8.130085,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "RI",
@@ -375,7 +580,12 @@
     "difference_vote": -0.15508549070977973,
     "clinton_tweet": 0.06414600462487154,
     "trump_tweet": 0.13917169835560123,
-    "ratio_tweet": 2.1696082112905244
+    "ratio_tweet": 2.1696082112905244,
+    "poll_vote_538": -1.24,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": -1.06827,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "SC",
@@ -384,7 +594,12 @@
     "difference_vote": 0.14265912896030342,
     "clinton_tweet": 0.05966367848357254,
     "trump_tweet": 0.17906083518208296,
-    "ratio_tweet": 3.0011698864893916
+    "ratio_tweet": 3.0011698864893916,
+    "poll_vote_538": 7.11,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": 0.405306,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "SD",
@@ -393,7 +608,12 @@
     "difference_vote": 0.29795944839439314,
     "clinton_tweet": 0.03639552729664547,
     "trump_tweet": 0.12236351677263758,
-    "ratio_tweet": 3.3620481927710846
+    "ratio_tweet": 3.3620481927710846,
+    "poll_vote_538": 14.29,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": 13.126312,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "TN",
@@ -402,7 +622,12 @@
     "difference_vote": 0.26175255410011006,
     "clinton_tweet": 0.057326246273435695,
     "trump_tweet": 0.1930226659280837,
-    "ratio_tweet": 3.367090616877319
+    "ratio_tweet": 3.367090616877319,
+    "poll_vote_538": 14.17,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": 12.402399,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "TX",
@@ -411,7 +636,12 @@
     "difference_vote": 0.08999427598323423,
     "clinton_tweet": 0.058371537922106836,
     "trump_tweet": 0.14384385158034285,
-    "ratio_tweet": 2.4642806528807495
+    "ratio_tweet": 2.4642806528807495,
+    "poll_vote_538": 0.54,
+    "poll_vote_rcp": -2.86,
+    "poll_vote_gcs": -5.354221,
+    "is_hispanic_15_percent": 1,
+    "is_midwestern": 0
   },
   {
     "state": "UT",
@@ -420,7 +650,12 @@
     "difference_vote": 0.1807933323316511,
     "clinton_tweet": 0.04026581326369868,
     "trump_tweet": 0.0664852475767424,
-    "ratio_tweet": 1.6511586923958057
+    "ratio_tweet": 1.6511586923958057,
+    "poll_vote_538": 7.56,
+    "poll_vote_rcp": 7.76,
+    "poll_vote_gcs": 4.517048,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "VT",
@@ -429,7 +664,12 @@
     "difference_vote": -0.26408351239577615,
     "clinton_tweet": 0.01700477034744194,
     "trump_tweet": 0.029111853382832627,
-    "ratio_tweet": 1.7119815668202765
+    "ratio_tweet": 1.7119815668202765,
+    "poll_vote_538": -1.12,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": 21.914272,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "VA",
@@ -438,7 +678,12 @@
     "difference_vote": -0.053237058194936564,
     "clinton_tweet": 0.10518104008635232,
     "trump_tweet": 0.12413343451302655,
-    "ratio_tweet": 1.1801883154142092
+    "ratio_tweet": 1.1801883154142092,
+    "poll_vote_538": 0.77,
+    "poll_vote_rcp": 0.17,
+    "poll_vote_gcs": 3.952216,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "WA",
@@ -447,7 +692,12 @@
     "difference_vote": -0.1547908810319808,
     "clinton_tweet": 0.08831221177296723,
     "trump_tweet": 0.0984793736115113,
-    "ratio_tweet": 1.1151274737029775
+    "ratio_tweet": 1.1151274737029775,
+    "poll_vote_538": -2.98,
+    "poll_vote_rcp": -1.98,
+    "poll_vote_gcs": 3.99061,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "WV",
@@ -456,7 +706,12 @@
     "difference_vote": 0.42153646793847843,
     "clinton_tweet": 0.04601767972746492,
     "trump_tweet": 0.17398210119288868,
-    "ratio_tweet": 3.7807664841704356
+    "ratio_tweet": 3.7807664841704356,
+    "poll_vote_538": 15.68,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": 17.60348,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   },
   {
     "state": "WY",
@@ -465,6 +720,11 @@
     "difference_vote": 0.462952757290433,
     "clinton_tweet": 0.04055328513046212,
     "trump_tweet": 0.19103662370323798,
-    "ratio_tweet": 4.710755813953488
+    "ratio_tweet": 4.710755813953488,
+    "poll_vote_538": 12.56,
+    "poll_vote_rcp": null,
+    "poll_vote_gcs": 13.817797,
+    "is_hispanic_15_percent": 0,
+    "is_midwestern": 0
   }
 ]

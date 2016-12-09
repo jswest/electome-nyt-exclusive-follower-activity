@@ -37,13 +37,6 @@ header {
 	}
 }
 
-.state-li {
-	opacity: 0.25;
-	&.active {
-		opacity: 1;
-	}
-}
-
 .toggle {
 	float: left;
 	margin-left: 30px;
@@ -97,7 +90,17 @@ header {
 			display: block;
 			li {
 				background-color: #cccccc;
+				font-family: "Montserrat WF";
+				font-size: 10px;
+				font-weight: 100;
+				letter-spacing: 3px;
+				line-height: 30px;
 				text-align: center;
+				text-transform: uppercase;
+				opacity: 0.25;
+				&.active {
+					opacity: 1;
+				}
 			}
 		}
 	}

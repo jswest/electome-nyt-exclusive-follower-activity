@@ -31,11 +31,6 @@ header {
   fill: transparent;
   stroke: none; }
 
-.state-li {
-  opacity: 0.25; }
-  .state-li.active {
-    opacity: 1; }
-
 .toggle {
   float: left;
   margin-left: 30px;
@@ -83,7 +78,16 @@ header {
     display: block; }
     .dropdown.active ul li {
       background-color: #cccccc;
-      text-align: center; }
+      font-family: "Montserrat WF";
+      font-size: 10px;
+      font-weight: 100;
+      letter-spacing: 3px;
+      line-height: 30px;
+      text-align: center;
+      text-transform: uppercase;
+      opacity: 0.25; }
+      .dropdown.active ul li.active {
+        opacity: 1; }
 
 #key {
   float: left;
