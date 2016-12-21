@@ -15,7 +15,8 @@ var xSets = [
 var colors = [
 	{ slug: 'none', name: 'Remove coloring.' },
 	{ slug: 'is_hispanic_15_percent', name: 'Color states that are at least 15 percent hispanic.' },
-	{ slug: 'is_midwestern', name: 'Color midwestern states.' }
+	{ slug: 'is_midwestern', name: 'Color midwestern states.' },
+	{ slug: 'flipped_2012_2016', name: 'Color states that flipped between 2012 and 2016.' }
 ];
 
 var els = {};

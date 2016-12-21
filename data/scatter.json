@@ -14,7 +14,8 @@
     "poll_vote_rcp": false,
     "poll_vote_gcs": false,
     "is_hispanic_15_percent": false,
-    "is_midwestern": false
+    "is_midwestern": false,
+    "flipped_2012_2016": false
   },
   {
     "state": "AZ",
@@ -31,7 +32,8 @@
     "poll_vote_rcp": 0.11,
     "poll_vote_gcs": 10.869823,
     "is_hispanic_15_percent": 1,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "CO",
@@ -48,7 +50,8 @@
     "poll_vote_rcp": -0.01,
     "poll_vote_gcs": 18.739679,
     "is_hispanic_15_percent": 1,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "FL",
@@ -65,7 +68,8 @@
     "poll_vote_rcp": 1.07,
     "poll_vote_gcs": -6.528973,
     "is_hispanic_15_percent": 1,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 1
   },
   {
     "state": "IA",
@@ -82,7 +86,8 @@
     "poll_vote_rcp": 6.6,
     "poll_vote_gcs": 16.325687,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 1
+    "is_midwestern": 1,
+    "flipped_2012_2016": 1
   },
   {
     "state": "ME",
@@ -99,7 +104,8 @@
     "poll_vote_rcp": 1.79,
     "poll_vote_gcs": 29.679883,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "MI",
@@ -116,7 +122,8 @@
     "poll_vote_rcp": 3.65,
     "poll_vote_gcs": 2.826114,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 1
+    "is_midwestern": 1,
+    "flipped_2012_2016": 1
   },
   {
     "state": "MN",
@@ -133,7 +140,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": 6.218162,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 1
+    "is_midwestern": 1,
+    "flipped_2012_2016": 0
   },
   {
     "state": "NV",
@@ -150,7 +158,8 @@
     "poll_vote_rcp": -3.16,
     "poll_vote_gcs": 0.935003,
     "is_hispanic_15_percent": 1,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "NH",
@@ -167,7 +176,8 @@
     "poll_vote_rcp": 0.22,
     "poll_vote_gcs": 9.107244,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "NC",
@@ -184,7 +194,8 @@
     "poll_vote_rcp": 2.84,
     "poll_vote_gcs": -3.990196,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "OH",
@@ -201,7 +212,8 @@
     "poll_vote_rcp": 5.04,
     "poll_vote_gcs": 4.856097,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 1
+    "is_midwestern": 1,
+    "flipped_2012_2016": 1
   },
   {
     "state": "PA",
@@ -218,7 +230,8 @@
     "poll_vote_rcp": 3.04,
     "poll_vote_gcs": -0.238455,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 1
   },
   {
     "state": "WI",
@@ -235,7 +248,8 @@
     "poll_vote_rcp": 7.28,
     "poll_vote_gcs": 17.824212,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 1
+    "is_midwestern": 1,
+    "flipped_2012_2016": 1
   },
   {
     "state": "AL",
@@ -252,7 +266,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": -20.126324,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "AK",
@@ -269,7 +284,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": -6.732228,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "AR",
@@ -286,7 +302,8 @@
     "poll_vote_rcp": 1.18,
     "poll_vote_gcs": 12.092601,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "CA",
@@ -303,7 +320,8 @@
     "poll_vote_rcp": -6.53,
     "poll_vote_gcs": -1.022318,
     "is_hispanic_15_percent": 1,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "CT",
@@ -320,7 +338,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": -0.448792,
     "is_hispanic_15_percent": 1,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "DE",
@@ -337,7 +356,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": -0.706754,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "DC",
@@ -354,7 +374,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": -33.972417,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "GA",
@@ -371,7 +392,8 @@
     "poll_vote_rcp": 0.94,
     "poll_vote_gcs": -2.135752,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "HI",
@@ -388,7 +410,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": -6.226475,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "ID",
@@ -405,7 +428,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": 12.450686,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "IL",
@@ -422,7 +446,8 @@
     "poll_vote_rcp": -4.49,
     "poll_vote_gcs": -1.315519,
     "is_hispanic_15_percent": 1,
-    "is_midwestern": 1
+    "is_midwestern": 1,
+    "flipped_2012_2016": 0
   },
   {
     "state": "IN",
@@ -439,7 +464,8 @@
     "poll_vote_rcp": 8.56,
     "poll_vote_gcs": 19.165282,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 1
+    "is_midwestern": 1,
+    "flipped_2012_2016": 0
   },
   {
     "state": "KS",
@@ -456,7 +482,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": 34.527474,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "KY",
@@ -473,7 +500,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": 13.592798,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "LA",
@@ -490,7 +518,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": -15.240527,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "MD",
@@ -507,7 +536,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": -1.325175,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "MA",
@@ -524,7 +554,8 @@
     "poll_vote_rcp": 2.12,
     "poll_vote_gcs": 2.823796,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "MS",
@@ -541,7 +572,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": -17.204864,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "MO",
@@ -558,7 +590,8 @@
     "poll_vote_rcp": 8.13,
     "poll_vote_gcs": 19.875662,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 1
+    "is_midwestern": 1,
+    "flipped_2012_2016": 0
   },
   {
     "state": "MT",
@@ -575,7 +608,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": 12.021767,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "NE",
@@ -592,7 +626,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": 8.591738,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "NJ",
@@ -609,7 +644,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": -4.715047,
     "is_hispanic_15_percent": 1,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "NM",
@@ -626,7 +662,8 @@
     "poll_vote_rcp": -3.22,
     "poll_vote_gcs": 5.410533,
     "is_hispanic_15_percent": 1,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "NY",
@@ -643,7 +680,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": -8.714803,
     "is_hispanic_15_percent": 1,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "ND",
@@ -660,7 +698,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": 3.537466,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "OK",
@@ -677,7 +716,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": 10.893537,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "OR",
@@ -694,7 +734,8 @@
     "poll_vote_rcp": -2.63,
     "poll_vote_gcs": 8.130085,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "RI",
@@ -711,7 +752,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": -1.06827,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "SC",
@@ -728,7 +770,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": 0.405306,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "SD",
@@ -745,7 +788,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": 13.126312,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "TN",
@@ -762,7 +806,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": 12.402399,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "TX",
@@ -779,7 +824,8 @@
     "poll_vote_rcp": -2.86,
     "poll_vote_gcs": -5.354221,
     "is_hispanic_15_percent": 1,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "UT",
@@ -796,7 +842,8 @@
     "poll_vote_rcp": 7.76,
     "poll_vote_gcs": 4.517048,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "VT",
@@ -813,7 +860,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": 21.914272,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "VA",
@@ -830,7 +878,8 @@
     "poll_vote_rcp": 0.17,
     "poll_vote_gcs": 3.952216,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "WA",
@@ -847,7 +896,8 @@
     "poll_vote_rcp": -1.98,
     "poll_vote_gcs": 3.99061,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "WV",
@@ -864,7 +914,8 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": 17.60348,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   },
   {
     "state": "WY",
@@ -881,6 +932,7 @@
     "poll_vote_rcp": null,
     "poll_vote_gcs": 13.817797,
     "is_hispanic_15_percent": 0,
-    "is_midwestern": 0
+    "is_midwestern": 0,
+    "flipped_2012_2016": 0
   }
 ]
