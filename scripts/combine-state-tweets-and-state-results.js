@@ -13,6 +13,8 @@ var pollError = d3.csvParse( fs.readFileSync( './data/raw/polling-data.csv' ).to
 
 var rawTweets = require( './../data/raw-tweet-counts.json' );
 
+var actual = d3.csvParse( fs.readFileSync( './data/raw/actual-vote-shares.csv' ).toString() );
+
 var stateData = stateResults.map( function ( stateResult ) {
 
 	var trump = parseInt( stateResult.trump.split( ',' ).join( '' ) );
@@ -44,6 +46,10 @@ var stateData = stateResults.map( function ( stateResult ) {
 } );
 
 var data = stateData.map( function ( d ) {
+
+	var a = actual.find( function ( a ) {
+		return a.state === d.state;
+	} );
 
 	var rt = rawTweets.find( function ( rt ) {
 		return rt.state === d.state;
@@ -77,6 +83,7 @@ var data = stateData.map( function ( d ) {
 		clinton_tweet: t.clinton,
 		trump_tweet: t.trump,
 		// ratio_tweet: t.ratio,
+		poll_vote_538_actual: a ? parseFloat( a['trump'] ) - parseFloat( a['projected_trump'] ) : false,
 		poll_vote_538: e ? parseFloat( e['538 error'] ) : false,
 		poll_vote_rcp: e ? parseFloat( e['rcp error'] ) : false,
 		poll_vote_gcs: e ? parseFloat( e['gcs error'] ) : false,

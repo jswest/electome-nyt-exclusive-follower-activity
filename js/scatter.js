@@ -1,5 +1,6 @@
 var ySets = [
 	{ slug: 'difference_vote', name: 'The difference in percentage points between the popular vote for Trump and the popular vote for Clinton.' },
+	{ slug: 'poll_vote_538_actual', name: 'The difference in the actual percent of the vote for Trump and the 538 projected percent of the vote for Trump.' },
 	{ slug: 'poll_vote_538', name: 'The difference the margin of victory projected by 538 and the actual margin.' },
 	{ slug: 'poll_vote_rcp', name: 'The difference the margin of victory projected by RCP and the actual margin.' },
 	{ slug: 'poll_vote_gcs', name: 'The difference the margin of victory projected by GCS and the actual margin.' }
