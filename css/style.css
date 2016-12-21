@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0; }
 
+.clear {
+  clear: both; }
+
 header {
   position: relative;
   width: 100%; }
@@ -14,6 +17,13 @@ header {
     margin-bottom: 10px;
     margin-left: 30px;
     width: 75%; }
+  header .top-p {
+    font-family: "Playfair Display WF";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 30px;
+    width: 100%; }
 
 .line {
   fill: transparent;
@@ -30,6 +40,9 @@ header {
 .axis .domain {
   fill: transparent;
   stroke: none; }
+
+.controls {
+  margin-left: 30px; }
 
 .toggle {
   float: left;
@@ -53,6 +66,8 @@ header {
     height: 30px; }
     .toggle button.active {
       opacity: 1; }
+  .toggle:first-child {
+    margin-left: 0; }
 
 .dropdown {
   cursor: pointer;
@@ -62,13 +77,11 @@ header {
   height: 30px; }
   .dropdown p {
     background-color: #cccccc;
-    font-family: "Montserrat WF";
-    font-size: 10px;
-    font-weight: 100;
-    letter-spacing: 3px;
+    font-family: "Playfair Display WF";
+    font-size: 15px;
+    font-weight: 800;
     line-height: 30px;
     text-align: center;
-    text-transform: uppercase;
     width: 320px;
     height: 30px; }
   .dropdown ul {
@@ -78,16 +91,20 @@ header {
     display: block; }
     .dropdown.active ul li {
       background-color: #cccccc;
-      font-family: "Montserrat WF";
-      font-size: 10px;
-      font-weight: 100;
-      letter-spacing: 3px;
-      line-height: 30px;
+      box-sizing: border-box;
+      font-family: "Playfair Display WF";
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 15px;
       text-align: center;
-      text-transform: uppercase;
-      opacity: 0.25; }
+      opacity: 0.5;
+      padding: 10px 10px; }
       .dropdown.active ul li.active {
         opacity: 1; }
+      .dropdown.active ul li:hover {
+        opacity: 0.75; }
+  .dropdown:first-child {
+    margin-left: 0; }
 
 #key {
   float: left;
@@ -113,5 +130,8 @@ header {
     text-transform: uppercase;
     width: 140px;
     height: 10px; }
+
+#svg-wrapper {
+  padding-top: 50px; }
 
 /*# sourceMappingURL=style.css.map */

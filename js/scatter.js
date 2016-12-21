@@ -1,18 +1,25 @@
-var sets = [
-	{ slug: 'difference_vote', name: 'difference in popular vote' },
-	{ slug: 'poll_vote_538', name: '538 error' },
-	{ slug: 'poll_vote_rcp', name: 'RCP error' },
-	{ slug: 'poll_vote_gcs', name: 'GCS error' }
+var ySets = [
+	{ slug: 'difference_vote', name: 'The difference in percentage points between the popular vote for Trump and the popular vote for Clinton.' },
+	{ slug: 'poll_vote_538', name: 'The difference the margin of victory projected by 538 and the actual margin.' },
+	{ slug: 'poll_vote_rcp', name: 'The difference the margin of victory projected by RCP and the actual margin.' },
+	{ slug: 'poll_vote_gcs', name: 'The difference the margin of victory projected by GCS and the actual margin.' }
+];
+
+var xSets = [
+	{ slug: 'ratio_tweet', name: 'The ratio of the number of tweets by exclusive Trump followers to the number of tweets by exclusive Clinton followers.' },
+	{ slug: 'ratio_tweets_per_follower', name: 'The ratio of the average number of tweets per follower for Trump followers to the average number of tweets per follower for Clinton followers.' },
+	{ slug: 'ratio_follower', name: 'The ratio of exclusive Trump followers to Clinton followers.' }
 ];
 
 var colors = [
-	{ slug: 'none', name: false },
-	{ slug: 'is_hispanic_15_percent', name: '15 percent hispanic' },
-	{ slug: 'is_midwestern', name: 'Midwestern state' }
+	{ slug: 'none', name: 'Remove coloring.' },
+	{ slug: 'is_hispanic_15_percent', name: 'Color states that are at least 15 percent hispanic.' },
+	{ slug: 'is_midwestern', name: 'Color midwestern states.' }
 ];
 
 var els = {};
 
+els.yAxisList = d3.select( '#y-axis-dropdown ul' );
 els.xAxisList = d3.select( '#x-axis-dropdown ul' );
 els.colorList = d3.select( '#color-dropdown ul' );
 
@@ -31,7 +38,7 @@ var padding = {
 sizes.cwidth = sizes.width - padding.left - padding.right;
 sizes.cheight = sizes.height - padding.top - padding.bottom;
 
-els.svg = d3.select( 'body' ).append( 'svg' )
+els.svg = d3.select( '#svg-wrapper' ).append( 'svg' )
 	.attr( 'width', sizes.width )
 	.attr( 'height', sizes.height );
 
@@ -40,14 +47,37 @@ els.guts = els.svg.append( 'g' )
 
 d3.json( 'data/scatter.json', function ( data ) {
 
+	els.yAxisList.selectAll( 'li' )
+		.data( ySets )
+		.enter()
+		.append( 'li' )
+		.classed( 'y-axis-li', true )
+		.text( function ( d ) { return d.name; } );
+
+	var activeYAxisItem;
+
+	document.getElementById( 'y-axis-dropdown-open-target' ).addEventListener( 'click', function () {
+		document.getElementById( 'y-axis-dropdown' ).classList.toggle( 'active' );
+	} );
+
+	[].forEach.call( document.getElementsByClassName( 'y-axis-li' ), function ( el ) {
+		el.addEventListener( 'click', function () {
+			d3.select( '.y-axis-li.active').classed( 'active', false );
+			el.classList.toggle( 'active' );
+			activeYAxisItem = d3.select( '.y-axis-li.active' ).datum().slug;
+			document.getElementById( 'current-y-axis' ).innerHTML = 'current y-axis: ' + d3.select( '.y-axis-li.active' ).datum().name;
+			show();
+		} );
+	} );
+
 	els.xAxisList.selectAll( 'li' )
-		.data( sets )
+		.data( xSets )
 		.enter()
 		.append( 'li' )
 		.classed( 'x-axis-li', true )
 		.text( function ( d ) { return d.name; } );
 
-	var activeXAxisItem = 'poll_vote_538';
+	var activeXAxisItem;
 
 	document.getElementById( 'x-axis-dropdown-open-target' ).addEventListener( 'click', function () {
 		document.getElementById( 'x-axis-dropdown' ).classList.toggle( 'active' );
@@ -58,6 +88,7 @@ d3.json( 'data/scatter.json', function ( data ) {
 			d3.select( '.x-axis-li.active').classed( 'active', false );
 			el.classList.toggle( 'active' );
 			activeXAxisItem = d3.select( '.x-axis-li.active' ).datum().slug;
+			document.getElementById( 'current-x-axis' ).innerHTML = 'current x-axis: ' + d3.select( '.x-axis-li.active' ).datum().name;
 			show();
 		} );
 	} );
@@ -93,37 +124,41 @@ d3.json( 'data/scatter.json', function ( data ) {
 
 	var show = function () {
 
+		if ( !( activeXAxisItem && activeYAxisItem ) ) {
+			return;
+		}
+
 		var circleData = data.filter( function ( d ) {
-			return d[activeXAxisItem] !== null;
+			return d[activeYAxisItem] !== null;
 		} );
 
 		d3.selectAll( '.viz-el' ).remove();
 
-		var xMin = d3.min( circleData, function ( d ) {
-			return d[activeXAxisItem];
+		var yMin = d3.min( circleData, function ( d ) {
+			return d[activeYAxisItem];
 		} );
 
-		xMin = Math.floor( xMin * 100 ) / 100;
+		yMin = Math.floor( yMin * 100 ) / 100;
+
+		var yMax = d3.max( circleData, function ( d ) {
+			return d[activeYAxisItem];
+		} );
+
+		yMax = Math.ceil( yMax * 100 ) / 100;
+
+		scales.y = d3.scaleLinear()
+			.domain( [ yMin, yMax ] )
+			.range( [ sizes.cheight, 0 ] );
 
 		var xMax = d3.max( circleData, function ( d ) {
 			return d[activeXAxisItem];
 		} );
 
-		xMax = Math.ceil( xMax * 100 ) / 100;
+		var xMin = 0;
 
 		scales.x = d3.scaleLinear()
-			.domain( [ xMin, xMax ] )
+			.domain( [ 0, xMax ] )
 			.range( [ 0, sizes.cwidth ] );
-
-		var yMax = d3.max( circleData, function ( d ) {
-			return d.ratio_tweet;
-		} );
-
-		var yMax = Math.ceil( yMax );
-
-		scales.y = d3.scaleLinear()
-			.domain( [ 0, yMax ] )
-			.range( [ sizes.cheight, 0 ] );
 
 		var axes = {};
 
@@ -150,11 +185,11 @@ d3.json( 'data/scatter.json', function ( data ) {
 			.append( 'circle' )
 			.classed( 'viz-el', true )
 			.attr( 'r', 5 )
-			.attr( 'cy', function ( d ) {
-				return scales.y( d.ratio_tweet );
-			} )
 			.attr( 'cx', function ( d ) {
 				return scales.x( d[activeXAxisItem] );
+			} )
+			.attr( 'cy', function ( d ) {
+				return scales.y( d[activeYAxisItem] );
 			} )
 			.style( 'opacity', 0.25 )
 			.style( 'fill', function ( d ) {
@@ -165,11 +200,11 @@ d3.json( 'data/scatter.json', function ( data ) {
 				}
 			} )
 			.on( 'mouseover', function () {
-				console.log( d3.select( this ).datum().state );
+				document.getElementById( 'state-name' ).innerHTML = 'state: ' + d3.select( this ).datum().state;
 			} );;
 
 		var lineData = circleData.map( function ( d ) {
-			return [ d[activeXAxisItem], d.ratio_tweet ];
+			return [ d[activeXAxisItem], d[activeYAxisItem] ];
 		} );
 
 		var regression = ss.linearRegression( lineData );
@@ -179,7 +214,7 @@ d3.json( 'data/scatter.json', function ( data ) {
 		var rSquared = ss.rSquared( lineData, regressionLine );
 
 		document.getElementById( 'correlation' ).innerHTML = 'correlation: ' + correlation;
-		document.getElementById( 'r-squared' ).innerHTML = 'rSquare: ' + rSquared;
+		document.getElementById( 'r-squared' ).innerHTML = 'r-squared: ' + rSquared;
 
 		var line = els.guts.append( 'line' )
 			.classed( 'viz-el', true )

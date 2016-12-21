@@ -1,0 +1,320 @@
+[
+  {
+    "state": "MD",
+    "total": 51464328,
+    "clinton": 5116905,
+    "trump": 5407920
+  },
+  {
+    "state": "WY",
+    "total": 4427952,
+    "clinton": 179568,
+    "trump": 845901
+  },
+  {
+    "state": "CT",
+    "total": 40488843,
+    "clinton": 3540900,
+    "trump": 4235334
+  },
+  {
+    "state": "IA",
+    "total": 33378333,
+    "clinton": 3144789,
+    "trump": 2890140
+  },
+  {
+    "state": "ID",
+    "total": 15756918,
+    "clinton": 1199643,
+    "trump": 1689801
+  },
+  {
+    "state": "MT",
+    "total": 11375685,
+    "clinton": 465972,
+    "trump": 2981316
+  },
+  {
+    "state": "CO",
+    "total": 74510628,
+    "clinton": 6419556,
+    "trump": 6777387
+  },
+  {
+    "state": "MA",
+    "total": 104777232,
+    "clinton": 11054307,
+    "trump": 12833022
+  },
+  {
+    "state": "ND",
+    "total": 4427082,
+    "clinton": 270918,
+    "trump": 1022511
+  },
+  {
+    "state": "MI",
+    "total": 88072101,
+    "clinton": 7253799,
+    "trump": 13337013
+  },
+  {
+    "state": "ME",
+    "total": 16591074,
+    "clinton": 2037627,
+    "trump": 2121408
+  },
+  {
+    "state": "TN",
+    "total": 76487007,
+    "clinton": 4384713,
+    "trump": 14763726
+  },
+  {
+    "state": "KS",
+    "total": 28218276,
+    "clinton": 1845879,
+    "trump": 3105900
+  },
+  {
+    "state": "NY",
+    "total": 470655732,
+    "clinton": 56463087,
+    "trump": 59450928
+  },
+  {
+    "state": "AK",
+    "total": 9831348,
+    "clinton": 803706,
+    "trump": 1644126
+  },
+  {
+    "state": "MN",
+    "total": 57525792,
+    "clinton": 6763902,
+    "trump": 5311872
+  },
+  {
+    "state": "Unknown",
+    "total": 5005113219,
+    "clinton": 314548761,
+    "trump": 738251637
+  },
+  {
+    "state": "VT",
+    "total": 8881743,
+    "clinton": 151032,
+    "trump": 258564
+  },
+  {
+    "state": "WI",
+    "total": 63775437,
+    "clinton": 4855122,
+    "trump": 8463969
+  },
+  {
+    "state": "TX",
+    "total": 368092563,
+    "clinton": 21486129,
+    "trump": 52947852
+  },
+  {
+    "state": "MO",
+    "total": 69301242,
+    "clinton": 5887899,
+    "trump": 8846334
+  },
+  {
+    "state": "WA",
+    "total": 110513142,
+    "clinton": 9759660,
+    "trump": 10883265
+  },
+  {
+    "state": "LA",
+    "total": 46277475,
+    "clinton": 4000347,
+    "trump": 6246600
+  },
+  {
+    "state": "IN",
+    "total": 43538715,
+    "clinton": 2475672,
+    "trump": 6199098
+  },
+  {
+    "state": "AZ",
+    "total": 43378635,
+    "clinton": 2997324,
+    "trump": 9116295
+  },
+  {
+    "state": "WV",
+    "total": 15884634,
+    "clinton": 730974,
+    "trump": 2763642
+  },
+  {
+    "state": "AL",
+    "total": 47107542,
+    "clinton": 2633055,
+    "trump": 8822583
+  },
+  {
+    "state": "NJ",
+    "total": 82761621,
+    "clinton": 7699239,
+    "trump": 14567541
+  },
+  {
+    "state": "FL",
+    "total": 301515378,
+    "clinton": 25716765,
+    "trump": 56180337
+  },
+  {
+    "state": "NC",
+    "total": 107178606,
+    "clinton": 8431605,
+    "trump": 17261148
+  },
+  {
+    "state": "MS",
+    "total": 17705631,
+    "clinton": 736368,
+    "trump": 4238988
+  },
+  {
+    "state": "SD",
+    "total": 3968070,
+    "clinton": 144420,
+    "trump": 485547
+  },
+  {
+    "state": "VA",
+    "total": 87934641,
+    "clinton": 9249057,
+    "trump": 10915629
+  },
+  {
+    "state": "KY",
+    "total": 37099845,
+    "clinton": 2910150,
+    "trump": 7986861
+  },
+  {
+    "state": "AR",
+    "total": 21768792,
+    "clinton": 3068925,
+    "trump": 3241098
+  },
+  {
+    "state": "PA",
+    "total": 138617535,
+    "clinton": 11582136,
+    "trump": 22443999
+  },
+  {
+    "state": "NE",
+    "total": 14670897,
+    "clinton": 893664,
+    "trump": 1812993
+  },
+  {
+    "state": "NV",
+    "total": 59120415,
+    "clinton": 5508492,
+    "trump": 9956802
+  },
+  {
+    "state": "HI",
+    "total": 16861470,
+    "clinton": 1174500,
+    "trump": 2112795
+  },
+  {
+    "state": "SC",
+    "total": 46117656,
+    "clinton": 2751549,
+    "trump": 8257866
+  },
+  {
+    "state": "RI",
+    "total": 10835328,
+    "clinton": 695043,
+    "trump": 1507971
+  },
+  {
+    "state": "UT",
+    "total": 24521124,
+    "clinton": 987363,
+    "trump": 1630293
+  },
+  {
+    "state": "OR",
+    "total": 57378675,
+    "clinton": 5294994,
+    "trump": 5060790
+  },
+  {
+    "state": "DC",
+    "total": 213811548,
+    "clinton": 20982573,
+    "trump": 11098677
+  },
+  {
+    "state": "OH",
+    "total": 112823166,
+    "clinton": 8604039,
+    "trump": 13693974
+  },
+  {
+    "state": "GA",
+    "total": 112455417,
+    "clinton": 8953953,
+    "trump": 18421728
+  },
+  {
+    "state": "DE",
+    "total": 10017876,
+    "clinton": 896883,
+    "trump": 745242
+  },
+  {
+    "state": "NM",
+    "total": 20658672,
+    "clinton": 1341366,
+    "trump": 1507362
+  },
+  {
+    "state": "IL",
+    "total": 177504708,
+    "clinton": 15935355,
+    "trump": 18240768
+  },
+  {
+    "state": "OK",
+    "total": 34125489,
+    "clinton": 2456793,
+    "trump": 4965177
+  },
+  {
+    "state": "NH",
+    "total": 16446654,
+    "clinton": 2009265,
+    "trump": 2748765
+  },
+  {
+    "state": "CA",
+    "total": 567490560,
+    "clinton": 56694855,
+    "trump": 65718408
+  },
+  {
+    "state": "all",
+    "clinton": 4557495,
+    "trump": 8597775,
+    "total": 9203242452
+  }
+]
